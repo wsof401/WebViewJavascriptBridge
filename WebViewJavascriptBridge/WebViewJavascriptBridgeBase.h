@@ -9,8 +9,8 @@
 
 #define kOldProtocolScheme @"wvjbscheme"
 #define kNewProtocolScheme @"https"
-#define kQueueHasMessage   @"__wvjb_queue_message__"
-#define kBridgeLoaded      @"__bridge_loaded__"
+#define kQueueHasMessage   @"bigone-queue-message.b1.run"
+#define kBridgeLoaded      @"bridge-loaded.b1.run"
 
 typedef void (^WVJBResponseCallback)(id responseData);
 typedef void (^WVJBHandler)(id data, WVJBResponseCallback responseCallback);
